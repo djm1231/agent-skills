@@ -1,0 +1,6 @@
+interface:
+  display_name: "Self-Improving Codex"
+  short_description: "Record, refine, snapshot, and roll back Codex memory safely."
+  default_prompt: "Use $self-improving-codex as the default memory workflow for non-trivial threads to run preflight, capture durable learnings, and manage snapshots or rollback when needed."
+policy:
+  allow_implicit_invocation: true
